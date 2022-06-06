@@ -26,8 +26,10 @@ class DetailActivity : AppCompatActivity() {
                 detailNama.text = data.name
                 detailTempat.text = data.tmp
                 val usia = "Usia: " + data.usia + " tahun"
-                detailUsia.text = data.usia
+                detailUsia.text = usia
                 detailDesk.text = data.description
+                val tahun = "Tahun: " + data.thnKelahiran + " masehi"
+                detailTahun.text = data.thnKelahiran
         }
 
         }
